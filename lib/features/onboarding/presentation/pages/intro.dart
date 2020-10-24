@@ -1,10 +1,10 @@
-import 'package:firebasestarter/core/presentation/providers/providers.dart';
+import 'package:learningbear/core/presentation/providers/providers.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_swiper/flutter_swiper.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:firebasestarter/features/profile/data/model/user_field.dart';
-import 'package:firebasestarter/features/profile/data/service/user_db_service.dart';
-import 'package:firebasestarter/generated/l10n.dart';
+import 'package:learningbear/features/profile/data/model/user_field.dart';
+import 'package:learningbear/features/profile/data/service/user_db_service.dart';
+import 'package:learningbear/generated/l10n.dart';
 
 class IntroPage extends StatelessWidget {
   @override

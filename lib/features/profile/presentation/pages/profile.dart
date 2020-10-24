@@ -1,10 +1,10 @@
-import 'package:firebasestarter/core/presentation/providers/providers.dart';
+import 'package:learningbear/core/presentation/providers/providers.dart';
 import 'package:flutter/material.dart';
-import 'package:firebasestarter/core/presentation/res/analytics.dart';
-import 'package:firebasestarter/core/presentation/res/routes.dart';
-import 'package:firebasestarter/features/auth/data/model/user_repository.dart';
-import 'package:firebasestarter/features/profile/presentation/widgets/avatar.dart';
-import 'package:firebasestarter/generated/l10n.dart';
+import 'package:learningbear/core/presentation/res/analytics.dart';
+import 'package:learningbear/core/presentation/res/routes.dart';
+import 'package:learningbear/features/auth/data/model/user_repository.dart';
+import 'package:learningbear/features/profile/presentation/widgets/avatar.dart';
+import 'package:learningbear/generated/l10n.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class UserProfile extends StatelessWidget {

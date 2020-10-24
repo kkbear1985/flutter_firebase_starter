@@ -6,13 +6,13 @@ import 'package:flutter/widgets.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:package_info/package_info.dart';
-import 'package:firebasestarter/core/data/res/data_constants.dart';
-import 'package:firebasestarter/features/notification/data/service/push_notification_service.dart';
-import 'package:firebasestarter/features/profile/data/model/device.dart';
-import 'package:firebasestarter/features/profile/data/model/device_field.dart';
-import 'package:firebasestarter/features/profile/data/model/user.dart';
-import 'package:firebasestarter/features/profile/data/model/user_field.dart';
-import 'package:firebasestarter/features/profile/data/service/user_db_service.dart';
+import 'package:learningbear/core/data/res/data_constants.dart';
+import 'package:learningbear/features/notification/data/service/push_notification_service.dart';
+import 'package:learningbear/features/profile/data/model/device.dart';
+import 'package:learningbear/features/profile/data/model/device_field.dart';
+import 'package:learningbear/features/profile/data/model/user.dart';
+import 'package:learningbear/features/profile/data/model/user_field.dart';
+import 'package:learningbear/features/profile/data/service/user_db_service.dart';
 
 enum Status { Uninitialized, Authenticated, Authenticating, Unauthenticated }
 

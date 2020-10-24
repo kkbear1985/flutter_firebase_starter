@@ -1,4 +1,4 @@
-package com.popupbits.firebasestarter
+package com.bearkkdev.learningbear
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity
